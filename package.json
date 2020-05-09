@@ -1,0 +1,16 @@
+{
+  "name": "internal-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf *.d.ts && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}
